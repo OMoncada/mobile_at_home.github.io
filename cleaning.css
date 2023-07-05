@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+p {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#hero-box {
+    width: 95px;
+    grid-column: 2/3;
+    grid-row: 1/5;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 870px;
+}
+
+h7 {
+    font-size: 28px;
+    color: white;
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif, arial;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #02033b;
+    opacity: 90%;
+}
+
+
+nav a:hover {
+    background-color: #0077b6;
+    color: white;
+}
+
+.home-title {
+    color: white;
+    font-family: 'Libre Baskerville', serif, arial;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+
+h1 {
+    margin-top: 150px;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    background-color: #02033b;
+    padding: 25px 50px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+}
+
+
+
+main section img {
+    box-sizing: border-box;
+}
+
+/* Grid */
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+img {
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    opacity: 40%;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    .rivers-article2 {
+        text-align: center;
+        margin-right: -10px;
+        margin-left: -30px;
+
+    }
+    .rivers-article2 img {
+        width: 3350%;
+        margin-top: 600px;
+        margin-right: 400px;
+        margin-left: -390px;
+    }
+    .river3-text {
+        text-align: center;
+        margin-right: 350px;
+        margin-left: -60px;
+        width: 155%;
+    }
+    .rivers-article3 img {
+        width: 150%;
+        margin-top: 100px;
+        margin-right: 220px;
+        margin-left: -60px;
+    }
+    .rivers-article4 img {
+        width: 150%;
+        margin-top: 100px;
+        margin-right: 220px;
+        margin-left: -60px;
+    }
+    .river4-text {
+        text-align: center;
+        margin-right: 350px;
+        margin-left: -60px;
+        width: 155%;
+    }
+    .rivers-article5 img {
+        width: 150%;
+        margin-top: 100px;
+        margin-right: 220px;
+        margin-left: -60px;
+    }
+    .river5-text {
+        text-align: center;
+        margin-right: 350px;
+        margin-left: -60px;
+        width: 155%;
+    }
+    .rivers-article6 img {
+        width: 150%;
+        margin-top: 100px;
+        margin-right: 220px;
+        margin-left: -60px;
+    }
+    .river6-text {
+        text-align: center;
+        margin-right: 350px;
+        margin-left: -60px;
+        width: 155%;
+    }
+}
+
+.rivers-article2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+}
+
+.river2{
+    width: 95%;
+    grid-column: 2/3;
+    grid-row: 1/5;
+    margin: auto;
+    margin-right: 35px;
+    margin-top: -20px;
+}
+
+.river2-text{
+    grid-column: 1/2;
+    grid-row: 1/5;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+}
+
+.rivers-article3{
+    text-align: center;
+    margin: 50px;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.river3 {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 10px solid #0077b6;
+  }
+
+  .river3-text{
+    margin-top: 40px;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.rivers-article4{
+    text-align: center;
+    margin: 50px;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.river4 {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 10px solid #0077b6;
+  }
+
+  .river4-text{
+    margin-top: 40px;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+.rivers-article5{
+    text-align: center;
+    margin: 50px;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.river5 {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 10px solid #0077b6;
+  }
+
+  .river5-text{
+    margin-top: 40px;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+.rivers-article6{
+    text-align: center;
+    margin: 50px;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.river6 {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 10px solid #0077b6;
+  }
+
+  .river6-text{
+    margin-top: 40px;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
